@@ -1,0 +1,4 @@
+CRITICAL - 2025-01-17 17:51:00 --> ErrorException: Declaration of CodeIgniter\I18n\TimeTrait::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
