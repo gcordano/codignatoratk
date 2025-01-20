@@ -1,14 +1,13 @@
 <?php
 
 use CodeIgniter\Router\RouteCollection;
-
 use App\Controllers\News;
 use App\Controllers\Pages;
-
 
 /**
  * @var RouteCollection $routes
  */
+
 // Grupo para rotas do cliente
 $routes->group('cliente', function ($routes) {
     $routes->get('/', 'ClienteController::index'); // /cliente
@@ -38,4 +37,11 @@ $routes->group('news', function ($routes) {
 $routes->group('pages', function ($routes) {
     $routes->get('/', [Pages::class, 'index']); // /pages
     $routes->get('(:segment)', [Pages::class, 'view']); // /pages/{segment}
+});
+
+// Grupo para rotas do jogo da velha
+$routes->group('jogo-da-velha', function ($routes) {
+    $routes->get('/', 'JogoDaVelhaController::index'); // /jogo-da-velha
+    $routes->post('jogar', 'JogoDaVelhaController::jogar'); // /jogo-da-velha/jogar
+    $routes->post('reiniciar', 'JogoDaVelhaController::reiniciar'); // /jogo-da-velha/reiniciar
 });
