@@ -3182,3 +3182,17 @@ in APPPATH/Views/news/index.php on line 3.
 10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 12 SYSTEMPATH/rewrite.php(44): require_once('/Users/gustavo/Documents/GitHub/codignatoratk/public/index.php')
+CRITICAL - 2025-01-20 05:18:49 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: news/say-it-isnt-so]
+in APPPATH/Views/news/view.php on line 96.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():231}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('news/view', [], true)
+ 4 APPPATH/Controllers/News.php(37): view('news/view')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\News->show('say-it-isnt-so')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/gustavo/Documents/GitHub/codignatoratk/public/index.php')
