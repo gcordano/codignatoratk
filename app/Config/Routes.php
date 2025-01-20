@@ -9,16 +9,33 @@ use App\Controllers\Pages;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+// Grupo para rotas do cliente
+$routes->group('cliente', function ($routes) {
+    $routes->get('/', 'ClienteController::index'); // /cliente
+    $routes->post('salvar', 'ClienteController::salvar'); // /cliente/salvar
+    $routes->get('sucesso', 'ClienteController::sucesso'); // /cliente/sucesso
+    $routes->get('controle', 'ClienteController::controle'); // /cliente/controle
+    $routes->get('editar/(:num)', 'ClienteController::editar/$1'); // /cliente/editar/{id}
+    $routes->post('editar/(:num)', 'ClienteController::editar/$1'); // /cliente/editar/{id}
+    $routes->get('excluir/(:num)', 'ClienteController::excluir/$1'); // /cliente/excluir/{id}
+});
 
-$routes->get('news', [News::class, 'index']);
-$routes->get('news/new', [News::class, 'new']); // Add this line
-$routes->post('news', [News::class, 'create']); // Add this line
-$routes->get('news/(:segment)', [News::class, 'show']);
+// Grupo para rotas da calculadora
+$routes->group('calculadora', function ($routes) {
+    $routes->get('/', 'CalculadoraController::index'); // /calculadora
+    $routes->post('calcular', 'CalculadoraController::calcular'); // /calculadora/calcular
+});
 
-$routes->get('pages', [Pages::class, 'index']);
-$routes->get('(:segment)', [Pages::class, 'view']);
+// Grupo para rotas de notícias
+$routes->group('news', function ($routes) {
+    $routes->get('/', [News::class, 'index']); // /news
+    $routes->get('new', [News::class, 'new']); // /news/new
+    $routes->post('/', [News::class, 'create']); // /news
+    $routes->get('(:segment)', [News::class, 'show']); // /news/{segment}
+});
 
-$routes->get('/cliente', 'ClienteController::index');
-$routes->post('/cliente/salvar', 'ClienteController::salvar');
-$routes->get('/cliente/sucesso', 'ClienteController::sucesso');
+// Grupo para rotas de páginas
+$routes->group('pages', function ($routes) {
+    $routes->get('/', [Pages::class, 'index']); // /pages
+    $routes->get('(:segment)', [Pages::class, 'view']); // /pages/{segment}
+});

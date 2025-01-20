@@ -9,5 +9,5 @@ class ClienteModel extends Model
     protected $table = 'clientes';
     protected $primaryKey = 'id';
     protected $allowedFields = ['nome', 'email', 'telefone', 'endereco', 'cpf'];
-    protected $useTimestamps = true;
+
 }
