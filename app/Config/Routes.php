@@ -18,3 +18,7 @@ $routes->get('news/(:segment)', [News::class, 'show']);
 
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
+
+$routes->get('/cliente', 'ClienteController::index');
+$routes->post('/cliente/salvar', 'ClienteController::salvar');
+$routes->get('/cliente/sucesso', 'ClienteController::sucesso');
