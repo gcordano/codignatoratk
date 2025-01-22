@@ -51,13 +51,13 @@
         <mxCell id="ByymlZJaqONCalcEdJoq-12" value="COB" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ByymlZJaqONCalcEdJoq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ByymlZJaqONCalcEdJoq-15">
+        <mxCell id="ByymlZJaqONCalcEdJoq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ByymlZJaqONCalcEdJoq-14" target="ByymlZJaqONCalcEdJoq-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380.0588235294117" y="470" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-14" value="AWS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="310" width="400" height="30" as="geometry" />
+          <mxGeometry x="160" y="300" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ByymlZJaqONCalcEdJoq-15">
           <mxGeometry relative="1" as="geometry">
