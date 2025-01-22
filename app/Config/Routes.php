@@ -45,3 +45,13 @@ $routes->group('jogo-da-velha', function ($routes) {
     $routes->post('jogar', 'JogoDaVelhaController::jogar'); // /jogo-da-velha/jogar
     $routes->post('reiniciar', 'JogoDaVelhaController::reiniciar'); // /jogo-da-velha/reiniciar
 });
+
+$routes->group('animal', function ($routes) {
+    $routes->get('/', 'AnimalController::index');
+    $routes->post('create', 'AnimalController::create');
+});
+
+$routes->group('payment', function ($routes) {
+    $routes->get('/', 'PaymentController::index');
+    $routes->post('pay', 'PaymentController::pay');
+});

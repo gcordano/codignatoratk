@@ -1,1 +1,1 @@
-__ci_last_regenerate|i:1737393033;_ci_previous_url|s:45:"http://localhost:8080/index.php/jogo-da-velha";tabuleiro|a:3:{i:0;a:3:{i:0;s:1:"O";i:1;s:1:"O";i:2;s:1:"O";}i:1;a:3:{i:0;s:1:"O";i:1;s:1:"X";i:2;s:1:"X";}i:2;a:3:{i:0;s:0:"";i:1;s:1:"X";i:2;s:1:"X";}}jogadorAtual|s:1:"X";vencedor|s:1:"O";
+__ci_last_regenerate|i:1737393033;_ci_previous_url|s:45:"http://localhost:8080/index.php/jogo-da-velha";
