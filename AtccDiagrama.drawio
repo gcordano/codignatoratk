@@ -51,30 +51,27 @@
         <mxCell id="ByymlZJaqONCalcEdJoq-12" value="COB" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ByymlZJaqONCalcEdJoq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ByymlZJaqONCalcEdJoq-14" target="ByymlZJaqONCalcEdJoq-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ByymlZJaqONCalcEdJoq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ByymlZJaqONCalcEdJoq-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380.0588235294117" y="470" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-14" value="AWS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="310" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ByymlZJaqONCalcEdJoq-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160.0588235294117" y="530.0392156862745" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ByymlZJaqONCalcEdJoq-43" value="TESTE DE TEXTO&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ByymlZJaqONCalcEdJoq-20">
-          <mxGeometry x="1" y="-2" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="160.0588235294117" y="660.0392156862745" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ByymlZJaqONCalcEdJoq-15" target="ByymlZJaqONCalcEdJoq-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-15" value="CIM" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="380" width="180" height="120" as="geometry" />
+          <mxGeometry x="70" y="510" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-21" value="CIP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-24" value="FIDC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
@@ -86,19 +83,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-26" value="SPC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="500" y="490" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ByymlZJaqONCalcEdJoq-28" target="ByymlZJaqONCalcEdJoq-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-28" value="SPI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="440" width="120" height="80" as="geometry" />
+          <mxGeometry x="500" y="570" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-30" value="C?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="400" width="120" height="80" as="geometry" />
+          <mxGeometry x="660" y="530" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;C I M&lt;/h1&gt;&lt;p&gt;Prestador de servico para Aticca nos assuntos relacionados com o BACEN&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-190" y="380" width="250" height="100" as="geometry" />
+          <mxGeometry x="-190" y="510" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;H B I&lt;/h1&gt;&lt;p&gt;Empresa contratada para dar suporte e atualizacao no codigo fonte do APP Bancario&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="-110" width="180" height="120" as="geometry" />
@@ -107,16 +104,34 @@
           <mxGeometry x="590" y="140" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-39" value="BACEN" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Cost_Management.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="126.5" y="560" width="67" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ByymlZJaqONCalcEdJoq-40" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="346.5" y="250" width="67" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ByymlZJaqONCalcEdJoq-41" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="486.5" y="250" width="67" height="52" as="geometry" />
+          <mxGeometry x="126.5" y="690" width="67" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ByymlZJaqONCalcEdJoq-42" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="206.5" y="250" width="67" height="52" as="geometry" />
+          <mxGeometry x="175.17000000000002" y="250" width="51.54" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-44" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="276.71000000000004" y="250" width="28.13" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-49" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="236.71" y="250" width="28.13" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-52" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="247.5" width="51.54" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-53" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="421.5400000000001" y="247.5" width="28.13" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-54" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="381.54" y="247.5" width="28.13" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-55" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/Logic_Apps.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460.33000000000004" y="246.25" width="51.54" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-56" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="561.8700000000001" y="246.25" width="28.13" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-57" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="521.8700000000001" y="246.25" width="28.13" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
