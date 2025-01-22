@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1363" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -90,8 +90,17 @@
         <mxCell id="ByymlZJaqONCalcEdJoq-28" value="SPI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="390" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ByymlZJaqONCalcEdJoq-30" value="SPC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ByymlZJaqONCalcEdJoq-30" value="C?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="660" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;C I M&lt;/h1&gt;&lt;p&gt;Prestador de servico para Aticca nos assuntos relacionados com o BACEN&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-190" y="330" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;H B I&lt;/h1&gt;&lt;p&gt;Empresa contratada para dar suporte e atualizacao no codigo fonte do APP Bancario&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="-110" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ByymlZJaqONCalcEdJoq-37" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;TED, PIX e COB&lt;br&gt;&lt;/font&gt;&lt;/b&gt;Sao todos funcoes utilizadas pelo app bancario que chamam servidores na nuvem da AWS para realizar tarefas especificas para cada um dos produtos." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="140" width="220" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
