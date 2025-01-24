@@ -55,3 +55,17 @@ $routes->group('payment', function ($routes) {
     $routes->get('/', 'PaymentController::index');
     $routes->post('pay', 'PaymentController::pay');
 });
+
+$routes->group('login', function ($routes) {
+    $routes->get('/', 'Login::index');
+    $routes->post('authenticate', 'Login::authenticate');
+    $routes->get('logout', 'Login::logout');
+});
+
+$routes->group('dashboard', function ($routes) {
+    $routes->get('/', 'dashboard::index');
+}); 
+
+$routes->group('analytics', function ($routes) {
+    $routes->get('login-attempts', 'Analytics::loginAttempts');
+    });
